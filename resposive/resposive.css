@@ -1,0 +1,418 @@
+/* nếu màn nhỏ hơn 600px thì navbar-expand-sm mất */
+@media (max-width: 736px) {
+  .text-3 img{
+    width: 11%;
+  }
+
+  .test-text img{
+    width: 6%;
+  }
+  .img-t{
+    background-image:none ;
+  }
+  .img-t{
+  background-image:url('../image/logo48.png') ;
+  background-size: cover;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+  /* opacity: 0.9; */
+  /* background: #ccc; */
+  background-color: #ccc;
+  background-blend-mode: multiply;
+}
+  .kh-ct-p{
+    display: none;
+  }
+  .img-t{
+    padding: 15px 0;
+    margin: 20px auto;
+  }
+  .video_main{
+    padding: 30px 0 !important;
+  }
+
+  .text-slide-top h3{
+    line-height: 30px;
+    margin: 5px auto;
+  }
+  .item p{
+    padding-left: 23px;
+  }
+  .text-2 h3{
+    font-weight: 400;
+    line-height: 40px !important;
+  }
+  .text-2 h4{
+    font-weight: 200;
+    line-height: 40px;
+    font-size: 16px !important;
+  }
+  .video_main{
+    height: 400px;
+  }
+  .cln img{
+    width: 60%;
+  }
+  .img-t-1 img{
+    width: 70% !important;
+  }
+  .item{
+    width: 350px !important;
+
+  }
+  .item img{
+    width: 100%;
+    height: 200px!important;
+    margin: 0 30px !important;
+  }
+  .bt-slide{
+    text-align: center;
+    margin-left: 0;
+  }
+  .ct-ft h5{
+    font-size: 16px;
+    margin: 0;
+    line-height: 55px;
+  }
+  .ft-t-lg img{
+    width: 30%;
+  }
+  .img-ft img{
+    width: 10%;
+
+  }
+  .footter div p{
+    font-size: 15px;
+  }
+  .list-menu-bt li a{
+    font-size: 14px;
+    line-height: 30px;
+  }
+  .cln a{
+    font-size: 18px;
+  }
+  .mb-3 h3{
+    text-align: center;
+    padding-bottom: 10px !important;
+  }
+  .list-menu-bt{
+    margin-bottom: 0;
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .ct-dangky{
+    padding: 0;
+  }
+  .ct-bt h3{
+    padding: 0;
+  }
+  h3{
+    font-size: 20px !important;
+    font-weight: 300 !important;
+  }
+  h4{
+    font-size: 13px !important;
+  }
+  
+  .text-ct-kh{
+    padding: 0;
+  }
+  .text-ct-kh p{
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    font-weight: 300;
+  }
+  .text-ct-kh h3{
+    padding: 0;
+    text-align: center;
+    color: #fff;
+    font-size: 26px !important;
+  }
+  .img-t{
+    margin: 0;
+    padding: 0;
+  }
+  .img-qly img{
+    margin: 0 auto;
+    width: 60%;
+  }
+  .text-3 a{
+    font-size: 12px;
+
+  }
+  .text-3 h4 a{
+    padding-bottom: 0;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 500;
+  }
+  .text-3 p{
+    font-size: 15px;
+    line-height: 33px;
+    font-weight: 400;
+  }
+  .text-1 p{
+    font-size: 14px;
+    line-height: 35px;
+  }
+  .text-slide-top p{
+        text-align: center;
+    font-size: 12px;
+  }
+  .btn-outline-success{
+    /* width: 36%; */
+    font-size: 10px;
+    margin: 6px;
+  }
+  .slide-top{
+    padding: 10px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment:inherit;
+  }
+  .btn-trial{
+    width: 100px;
+    margin-top: 12px;
+    font-size: 10px;
+    /* padding: 0; */
+    height: 26px;
+    line-height: 26px;
+  }
+  .navbar-brand>img{
+    margin: 11px;
+    width: 60%;
+  }
+  .text-slide-top{
+    padding: 0;
+  }
+  .text-1{
+    margin: 0;
+  }
+  .text-1 h3{
+    margin-bottom: 20px;
+  }
+  
+  .img-max-ct-h3{
+        font-weight: 400 !important;
+    font-size: 20px !important;
+    line-height: 40px !important;
+    margin: 30px auto;
+  }
+  .navbar-expand-sm{
+    display: none;
+    background: none !important;
+  }
+  .text-slide-top h3{
+        font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+  }
+  .text-2 h3,h4{
+    font-size: 15px;
+    font-weight: bold;
+    display: table-cell;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #000;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  .text-slide-top-txt{
+    display: none;
+  }
+  .bg-dark{
+    background: none!important;
+    top: -45px;
+  }
+  .login-t{
+    display: none;
+  }
+  .logo-hd-t{
+    left: 90px;
+    position: relative;
+  }
+  .bder-nav{
+        position: absolute;
+    top: -90px;
+    right: 5px;
+  }
+  .mailbook{
+    right: 30%;
+    /* display: none; */
+  }
+  .mailbook img{
+    width: 40%;
+  }
+  .button-ct-ft a{
+    width: 40%;
+  }
+  .bt-dky{
+        width: 73%;
+    font-size: 16px;
+  }
+  .logo-hd-t{
+    display: none;
+  }
+ 
+  
+
+  .cln-1{
+    display: none;
+  }
+  .navbar-expand-sm{
+    display: none;
+    background: none !important;
+  }
+  .form-control{
+    width: 50% !important;
+    margin: auto;
+    margin-left: 45px;
+  }
+  .text-slide-top h3{
+        font-size: 15px;
+    font-weight: 600;
+  }
+  .text-slide-top-txt{
+    display: none;
+  }
+  .bg-dark{
+    background: none!important;
+    top: -25px;
+  }
+  .login-t{
+    display: none;
+  }
+  .logo-hd-t{
+    left: 90px;
+    position: relative;
+  }
+  .bder-nav{
+        position: absolute;
+    top: -15px;
+    right: 0px;
+    padding: 5px 12px;
+  }
+
+  }
+  @media(max-width: 768px){
+    .list-menu-bt li a{
+      font-size: 16px;
+    }
+    .text-3 img{
+    width: 9%;
+  }
+
+    .text-ct-kh p{
+      font-size: 18px;
+    }
+    .img-t{
+      background-image: none;
+    }
+      .img-t{
+    
+  background-image:url('../image/logo48.png') ;
+  background-size: cover;
+  /* background-size: contain; */
+  background-repeat: no-repeat;
+}
+    .video_play_icon p{
+      width: 68px;
+      height: 68px;
+    }
+    .ft-t-lg img{
+      width: 30%;
+    }
+    .img-t{
+    padding: 15px 0;
+    margin: 20px auto;
+  }
+       .menu_main_list ul li a{
+      font-size: 7px !important;
+    }
+    .logo-hd-t{
+      padding: 10px;
+    }
+  }
+  @media(max-width: 1024px){
+   .menu_main_list ul li a{
+      font-size: 12px;
+    }
+    .logo-hd-t img{
+      width: 100%;
+    }
+    .login-t{
+      display: none;
+    }
+  }
+  /* nếu kích thước màn hình
+   lớn hơn 768px thì .navbar-expand-md sẽ mất */
+ @media (min-width: 768px){
+  .navbar-expand-md{
+    display: none;
+  }
+
+}
+ @media(max-width: 1024px){
+   .menu_main_list ul li a{
+      font-size: 12px;
+    }
+    .logo-hd-t img{
+      width: 100%;
+    }
+    .login-t{
+      display: none;
+    }
+  }
+    @media(max-width: 768px){
+      .video_main{
+        padding: 60px 0;
+        height: 210px;
+
+      }
+       .menu_main_list ul li a{
+      
+      
+      font-size: 7px !important;
+    }
+    .logo-hd-t{
+      padding: 10px;
+    }
+  
+.cln-1{
+    display: none;
+  }
+  .mailbook{
+    margin-top: 55px;
+  }
+  .slide-top{
+    padding: 0;
+  }
+  .list-menu-bt{
+    margin-bottom: 10px;
+  }
+
+  }
+  /*  */
+
+  /* nếu kích thước màn hình
+   lớn hơn 768px thì .navbar-expand-md sẽ mất */
+ @media (min-width: 768px){
+  .navbar-expand-md{
+    display: none;
+  }
+
+}
+@media (max-width: 320px){
+  .text-slide-top h3{
+    font-size: 12px !important;
+    line-height: 20px;
+    margin: 0;
+
+  }
+  .btn-outline-success{
+    padding:  5px;
+  }
+
+}
